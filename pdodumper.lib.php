@@ -1375,8 +1375,8 @@ class cMainDumperApp {
 }
 
 function check_ver() {
-  if ( PHP_VERSION_ID < 50300) {
-    echo 'Sorry, php version must be >= 5.3.0';
+  if ( PHP_VERSION_ID < 50206) {
+    echo 'Sorry, php version must be >= 5.2.6';
     exit(1);
   }
 }
